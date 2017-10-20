@@ -39,7 +39,7 @@ html, body {
 }
 
 #name {
-	font-size: 8.75vh;
+	font-size: 8.75vmin;
 	padding-left: 0.8vw;
 	line-height: 9vh;
 }
