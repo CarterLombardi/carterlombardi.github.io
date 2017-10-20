@@ -1,0 +1,53 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+#background {
+	position: fixed;
+	width: 200vw;
+	height: 100vh;
+	top: 0;
+	left: calc(-100vw + 30vh);
+	background: -webkit-repeating-radial-gradient(
+		circle,
+		rgb(2, 30, 95),
+		rgb(2, 30, 95) 2.487vh,
+		rgb(2, 43, 146) 2.487vh,
+		rgb(2, 43, 146) 4.975vh
+	);
+	z-index: -1;
+}
+
+#header {
+	position: fixed;
+	top: 45.025vh;
+	width: 100vw;
+	padding-bottom: 0;
+	background-color: #000000;
+	color: #FFFFFF;
+	height: 9.95vh;
+	font-family: 'Playfair Display', serif;	
+	z-index: 1;
+}
+
+.fauxlink {
+	text-decoration: underline;
+	color: rgb(3, 56, 180);
+	cursor: pointer;
+}
+
+#name {
+	font-size: 8.75vh;
+	padding-left: 0.8vw;
+	line-height: 9vh;
+}
+
+#aboutcontact {
+	float: right;
+	margin: auto;
+	line-height: 8.5vh;
+	margin: 0;
+	padding-right: 5vw;
+}
